@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <!-- CSS Bootstrap Offline / Download-->
+  <link rel="stylesheet" href="bahan/bootstrap/css/bootstrap.css" />
+  <!-- CSS Manual Styling-->
+  <link rel="stylesheet" href="style.css" />
+
+<body>
+  <!-- Batas Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger shadow">
+    <div class="container-fluid">
+      <div class="navbar-brand">My Social Media</div>
+      <a href="https://linktr.ee/Dyxz">
+        <iconify-icon icon="tabler:brand-linktree" width="40"></iconify-icon>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">Tentang Kelompok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="portofolio.html">Konten</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactme.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Batas Navbar -->
+  <!-- Batas Portofolio -->
+  <section id="portofolio">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Rekomendasi Film</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/interstellar.jpg" class="card-img-top" alt="Portofolio 1" />
+            <div class="card-body">
+              <h4 class="text-center">Interstellar (2014)</h4>
+              <p class="card-text">
+                Film Interstellar ini bercerita tentang sekelompok astronot yang mempunyai tujuan ke lubang cacing di
+                dekat planet Saturnus untuk mencari planet baru yang dapat dihuni dan mampu merubah manusia.
+                Karena di sutradarai oleh Christopher Nolan, maka tidak heran jika sinematografi Interstellar ini sangat
+                bagus. Dengan membawakan tema luar angkasa serta menekankan fiksi ilmiah, Interstellar mampu
+                membungkusnya dengan baik. Interstellar sendiri berdurasi 2 Jam 49 Menit.
+              </p>
+              <h5>Rating :</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%"
+                  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">8/10</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/batman.jpg" class="card-img-top" alt="Portofolio 2" />
+            <div class="card-body">
+              <h4 class="text-center">The Batman (2022)</h4>
+              <p class="card-text">
+                The Batman adalah film superhero dari universe DC, yang disutradarai oleh Matt Reeves, dan dibintangi
+                oleh Robert Pattinson selaku Batman.
+                Film The Batman ini difokuskan ke sisi detektif yang dimiliki oleh Batman, dengan Riddler sebagai
+                antagonisnya. Dengan Sinematografi yang menakjubkan serta dengan visualisasi film yang dominan gelap,
+                akan membuat penonton mendapatkan vibe yang berbeda dengan film superhero yang lain. The batman sendiri,
+                memiliki durasi film sekitar 2 Jam 59 Menit
+              </p>
+              <h5>Rating :</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 90%"
+                  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">9/10</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/shawshank.jpg" class="card-img-top" alt="Portofolio 3" />
+            <div class="card-body">
+              <h4 class="text-center">Shawshank Redemption (1994)</a>
+              </h4>
+              <p class="card-text">
+                The Shawshank Redemption adalah salah satu film terbaik pada tahun 1994. Film yang dapat meraih rating
+                IMDb tertinggi dengan skor 9,3/10. Latar belakang penjara yang menyeramkan, membuat para penonton akan
+                kagum dengan kecerdasan film yang disutradarai oleh Frank Darabont. Serta akting yang sangat baik dari
+                Morgan Freeman yang menjadi Red, dan Tim Robbins yang menjadi Andy, menambah poin plus yang ada pada
+                film ini. Shawshank Redemption berdurasi sekitar 2 Jam 22 Menit.
+              </p>
+              <h5>Rating :</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%"
+                  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">8.5/10</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,170.7C672,192,768,256,864,272C960,288,1056,256,1152,240C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Batas Portofolio -->
+  <!-- JavaScript Bootstrap Offline-->
+  <script src="bahan/bootstrap/js/bootstrap.bundle.js"></script>
+  <!-- Script Icon Social Media-->
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</body>
+</head>
+
+</html>
